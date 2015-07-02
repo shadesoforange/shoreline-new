@@ -1,0 +1,110 @@
+/*
+ Theme Name:   Shoreline
+ Theme URI:    
+ Description:  WordPress theme for Shoreline Productions
+ Author:       Ian Monk
+ Author URI:   http://ianmonkdesign.com
+ Template:     swell
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  shoreline
+*/
+
+body, p, div, span, a { font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; font-weight: 400; font-size: 16px; line-height: 24px; }
+h2 { font-family: 'Oleo Script', cursive; color: #00a4b5; }
+h3 { font-family: 'Oleo Script', cursive; }
+#primary { padding-bottom: 0px; }
+#main { color: #575f64; }
+.button, a.button { font-weight: 400; background: #b3c3cd; border: none; color: #fff !important; letter-spacing: 1px; text-transform: uppercase; font-size: 18px; padding: 12px 24px !important; }
+.button:hover, a.button:hover { background: #14a5b6; border: none; color: #fff !important; }
+
+/* Site Header */
+.site-header .top { background: #00a4b5; }
+.site-header .top #main-nav { position: relative; right: auto; text-align: center; margin: 0 16px;}
+.site-header .top #main-nav li.menu-item { padding: 23px 20px 0; margin: 0px; }
+.site-header .top #main-nav li.menu-item a { color: #fff; text-transform: uppercase; font-size: 18px; letter-spacing: 1px; }
+.site-header .top .inside { max-width: 100%; padding: 16px 0; }
+
+/* Homepage */
+.home { }
+.home #projects-home { background: #fff; }
+.home #projects-home header h2 { font-size: 50px; margin-bottom: 10px; line-height: 56px; }
+.home #projects-home header p { font-size: 18px; line-height: 23px; color: #90a3af; margin: 0px auto 20px; }
+.home #main-content { padding: 0px; background: #f6e6cf; }
+.home #main-content h2 { font-size: 50px; padding: 0 10px; display: inline-block; margin: 0px auto; }
+.home #main-content .lines-orange { background: url("images/bg-lines-orange.png") no-repeat center center; text-align: center; }
+.home #main-content h3 { font-family: 'Open Sans', sans-serif; color: #383938; font-size: 36px; }
+.home #main-content .services p { margin-bottom: 0px; padding-bottom: 0px; }
+.home #main-content p { color: #575f64; font-size: 18px; line-height: 23px; }
+.home #main-content #content-bottom h2 { color: #fff; font-size: 50px; text-align: center; background: transparent; display: block; margin-bottom: 20px; }
+.home .bg-white { background: #fff; }
+.home #services h2 { color: #383938; background: #f6e6cf; }
+.home #services .button { background: #d09134; }
+
+/* Secondary Content */
+#content-secondary { background: #fff; width: 100%; padding: 40px 0; text-align: center; }
+#content-secondary .widget { max-width: 1100px; margin: 0px auto; }
+#content-secondary h2 { color: #00a4b5; background: #fff; }
+
+/* Header Region */
+#main header.has-background h1,
+h1.entry-title { font-family: 'Oleo Script', cursive; color: #fff; font-size: 56px; }
+ 
+/* Full-width page */
+#main.full-width .body-wrap { padding: 0px; }
+#main.full-width .entry-content { max-width: 100%; }
+#main.full-width header.main { margin-bottom: 0px !important; }
+
+/* Basic Page styles */
+.cursive, .cursive p { font-family: 'Oleo Script', cursive; }
+.large, .large p { font-size: 26px; line-height: 32px; }
+.entry-content { max-width: 1100px; }
+.entry-content h2 { background: #fff; padding: 0 10px; display: inline-block; margin: 0 auto; }
+.lines-aqua { background: url("images/bg-lines-aqua.png") no-repeat center center; text-align: center; }
+.lines-orange { background: url("images/bg-lines-orange.png") no-repeat center center; text-align: center; }
+.lines-grey { background: url("images/bg-lines-grey.png") no-repeat center center; text-align: center; }
+.entry-content .contact .column { width: 44%; margin: 0 3%; float: left; }
+.entry-content .contact label { color: #444; }
+.entry-content .contact input { background: #eee; width: 100%; padding: 10px 3%; margin-bottom: 20px; } 
+.entry-content .contact textarea { background: #eee; width: 100%; padding: 10px 3%; height: 250px; }
+.entry-content .contact .form-actions { clear: both; padding: 30px 0; text-align: center; }
+.entry-content .contact .form-actions input[type="submit"] { display: block; width: 200px; text-align: center; font-size: 1.2em; padding: 12px 36px; color: #fff !important; text-transform: uppercase; letter-spacing: 3px; background: #00a4b5; border: none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; margin: 0 auto 30px; } 
+.entry-content .contact .form-actions .ajax-loader { margin: 0px; }
+.entry-content .contact .contact-info strong { font-size: 24px; color: #00a4b5; font-family: 'Oleo Script', cursive; }
+.entry-content .contact .contact-info { font-size: 18px; color: #444; text-align: center; margin-bottom: 100px; }
+
+/* Portfolio Styles */
+#filter-nav li a { color: #fff; font-weight: 400; font-size: 18px; letter-spacing: 1px; text-transform: uppercase; background: #b3c3cd; font-family: 'Open Sans', sans-serif; border: none; padding: 10px 18px !important; }
+#filter-nav li a:hover { color: #fff; }
+#filter-nav li a.selected { background: #14a5b6; border: none; color: #fff; }
+#filter-nav li a.selected:hover { border: none; color: #fff; }
+.page-template-page-portfolio #primary { padding-bottom: 60px; }
+
+/* Other styles */
+#main .company-intro, #main .intro { margin-bottom: 40px; }
+#main .company-intro p, #main .intro p { font-style: italic; font-size: 32px; line-height: 39px; }
+#main .clients { text-align: center; }
+
+/* Content Bottom */
+#content-bottom { background: url("images/chicago-dark.jpg") no-repeat center center; background-size: cover; }
+#content-bottom .widget { max-width: 1000px; margin: 0px auto; padding: 50px 0; }
+#content-bottom h2 { color: #fff; font-size: 50px; text-align: center; background: transparent; display: block; margin-bottom: 20px; }
+#content-bottom .column { width: 44%; margin: 0 3%; float: left; }
+#content-bottom form label { color: #c8d9e3; }
+#content-bottom form input { background: #c8d9e3; width: 100%; padding: 10px 3%; margin-bottom: 20px; } 
+#content-bottom form textarea { background: #c8d9e3; width: 100%; padding: 10px 3%; height: 250px; }
+#content-bottom form .form-actions { clear: both; padding: 30px 0; text-align: center; }
+#content-bottom form .form-actions input[type="submit"] { display: block; width: 200px; text-align: center; font-size: 1.2em; padding: 12px 36px; color: #fff !important; text-transform: uppercase; letter-spacing: 3px; background: #00a4b5; border: none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; margin: 0 auto 30px; } 
+#content-bottom form .form-actions .ajax-loader { margin: 0px; }
+#content-bottom .contact-info strong { font-size: 24px; color: #fff; font-family: 'Oleo Script', cursive; }
+#content-bottom .contact-info { font-size: 18px; color: #c8d9e3; text-align: center; margin-bottom: 40px; }
+
+/* Responsive Styles */
+@media only screen and (max-width: 900px) {
+	#main header.main .entry-title { font-size: 42px; }
+	h2 { font-size: 36px; }
+	#main .company-intro { margin-bottom: 20px; }
+	#main .company-intro p { font-size: 24px; line-height: 30px; }
+}
